@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath></OutputPath>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>C:\Program Files\iiko\iikoRMS\Front.Net\Plugins\Resto.Front.Api.YagodaPlugin\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Resto.Front.Api.V6, Version=6.0.1127.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\V6\Resto.Front.Api.V6.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="System.Reactive.Core" Version="4.0.0" />
+    <PackageReference Include="System.Reactive.Interfaces" Version="4.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CoreYagoda\YagodaPluginCore.csproj" />
+  </ItemGroup>
+</Project>

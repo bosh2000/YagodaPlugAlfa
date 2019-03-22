@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SettingYagodaCore>
+
+        <Url>http://dev.progrepublic.ru</Url>
+        <Login>glupak.max</Login>
+        <Password>glupak.max123</Password>
+        <Port>57773</Port>
+        <IdSale>GM</IdSale>
+        <PrefixDataBase>/yagodadev3/posv3</PrefixDataBase>
+        <ShopCode>49f4899d-4172-11e6-b94e-00265a735a5c</ShopCode>
+        <ShopName>Аллея Труда 49А</ShopName>
+
+</SettingYagodaCore>
